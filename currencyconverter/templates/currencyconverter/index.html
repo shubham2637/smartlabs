@@ -1,0 +1,30 @@
+{% extends 'base.html' %}}
+
+{% block title %} Welcome {% endblock %}
+{% load static %}
+{% block content %}
+
+<div class="cover-container d-flex   p-3 mx-auto flex-column">
+    <header class="masthead mb-auto">
+      <div class="inner">
+        <h3 class="masthead-brand">Smartlabs</h3>
+        <nav class="nav nav-masthead justify-content-center">
+          <a class="nav-link active" href="{% url 'index' %}">Home</a>
+
+
+
+        </nav>
+      </div>
+    </header>
+  
+    <main role="main" class="inner cover">
+      <h1 class="cover-heading">Welcome to VymoFood</h1>
+      <p class="lead">Vymofood a Merchant creation webapp build using Django 3.1 and Boostrap 4.3. </p>
+      <p class="lead">
+
+      </p>
+    </main>
+  
+
+  </div>
+{% endblock %}}
